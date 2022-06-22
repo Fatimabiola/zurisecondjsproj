@@ -1,0 +1,58 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 6%;
+    margin-left: 40%;
+  
+  }
+
+ /* display*/
+.calculator {
+    width: 480px;
+    height: 800px;
+    border-radius: 4rem transparent;
+    background-color: purple;
+    padding-top: 50px;
+    border-radius: 2rem;
+}
+  
+
+  /*disp*/
+
+  #numd, #value{
+    height: 50px;
+    text-align: right;
+    width: 85%;
+    font-size: 50px;
+    font-weight: 200;
+    background-color: rgba(196, 182, 185, 0.514);
+    color:wheat;
+    padding: 10px;
+    border:none;
+    background-color: transparent;
+  }
+  /* calculator body*/
+  .calcu{
+      display: grid;
+      grid-template-columns: 100px 100px 100px 100px;
+      height: 440px;
+      border-radius: 6px;
+      width: 550px;
+      align-items: center;
+      margin: 3rem;
+    padding-top: 20px;
+    background-color: transparent;
+    }
+/* class button*/
+  .press, .operator, #clear, #dele {
+    font-family:ssans-serif;
+    font-weight: 50%;
+    font-size: 40px;
+    height: 90%;
+    width: 90%;
+    background-color:transparent;
+    border-radius: 6px;
+    outline:  brown;
+    color: white
+  }

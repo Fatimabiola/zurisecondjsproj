@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+    </head>
+    
+<body>  
+
+        <!--display-->
+        <div class="calculator">  
+        <div><input type="text" id="numd"  disabled></div>
+        <div><input type="text" id="value" ></div>
+
+    <div class = "calcu" >
+        <!-- firstrow -->
+        
+        <div> <input id = "clear" type = "button" value = "AC" onclick="clr('')"> </div>
+        <div> <input id = "dele" type = "button" value = "DEL" onclick = "dec('')"> </div>
+        <div> <input class = "operator" type = "button" value = "^" onclick = "display('**')" > </div>
+        <div> <input class = "operator" type = "button" value = "/" onclick = "display('/')" > </div>
+        
+        
+         <!-- 2ndrow -->
+        
+        <div> <input class = "press" type = "button" value = "7" onclick = "display('7')" > </div>
+        <div> <input class = "press" type = "button" value = "8" onclick = "display('8')" > </div>
+        <div> <input class = "press" type = "button" value = "9" onclick = "display('9')" > </div>
+        <div> <input class= "operator" type = "button" value = "*" onclick = "display('*')" > </div>
+        
+        
+        <!-- 3rdrow -->
+          
+        <div> <input class = "press" type = "button" value = "4" onclick = "display('4')" > </div>
+        <div> <input class = "press" type = "button" value = "5" onclick = "display('5')" > </div>
+        <div> <input class= "press" type = "button" value = "6" onclick = "display('6')" > </div>
+        <div> <input class = "operator" type = "button" value = "-" onclick = "display('-')" > </div>
+        
+        
+            <!-- 4throw -->
+        
+        <div> <input class= "press" type = "button" value = "1" onclick = "display('1')"> </div>
+        <div> <input class= "press" type = "button" value = "2" onclick = "display('2')" > </div>
+        <div> <input class= "press" type = "button" value = "3" onclick = "display('3')" > </div>
+        <div> <input class = "operator" type = "button" value = "+" onclick = "display('+')" > </div>
+        
+
+
+            <!-- 5throw -->
+        
+        <div> <input class= "press" type = "button" value = "0" onclick = "display('0')" > </div>
+        <div> <input class= "press" type = "button" value = "00" onclick = "display('00')"> </div>
+        <div> <input class = "press" type = "button" value = "." onclick = "display('.')"  > </div>
+        <div> <input class= "operator" type = "button" value = "=" onclick = "calculate()" > </div>
+    </div>
+            
+</div>
+
+</body>
+
+
+
+
+
+<script src="./js/index.js"></script>
+</html>
